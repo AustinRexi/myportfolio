@@ -36,6 +36,22 @@ export default function Projects() {
         github: "https://github.com/AustinRexi/lendsqr-fe-test",
       },
     },
+    {
+      title: "Webcam Facial Recognition App",
+      duration: "May 2025",
+      description:
+        "A web application that captures images from the user’s webcam and performs facial recognition to detect faces, age, gender, and emotions in real-time.",
+      features: [
+        "Developed a responsive UI using React, TypeScript, and Bootstrap, ensuring compatibility across desktop and mobile devices",
+        "Integrated webcam access with react-webcam and performed facial recognition using face-api.js, detecting multiple faces with 68-point landmarks",
+        "Implemented real-time emotion, age, and gender detection, displaying results with dynamic overlays on the captured image",
+        "Utilized Redux for state management to handle captured images and detection results efficiently",
+      ],
+      links: {
+        demo: "https://webcam-ochre.vercel.app/",
+        github: "https://github.com/AustinRexi/webcam",
+      },
+    },
   ];
 
   return (
