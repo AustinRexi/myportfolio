@@ -53,7 +53,7 @@ export default function Projects() {
       },
     },
     {
-      title: "Mazi",
+      title: "Local Ink",
       duration: "July 2025",
       description:
         " A web application built with Next.js and TypeScript, likely focused on providing a subscription-based service for accessing digital newspapers or media content",
