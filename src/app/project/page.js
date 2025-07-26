@@ -52,6 +52,39 @@ export default function Projects() {
         github: "https://github.com/AustinRexi/webcam",
       },
     },
+    {
+      title: "Mazi",
+      duration: "July 2025",
+      description:
+        " A web application built with Next.js and TypeScript, likely focused on providing a subscription-based service for accessing digital newspapers or media content",
+      features: [
+        "Developed a responsive UI using Next.js, TypeScript, and tailwind, ensuring compatibility across desktop and mobile devices",
+        "The map feature suggests a focus on geographic relevance, perhaps helping users find newspapers or delivery options based on their location.",
+        "The registration and subscription flows indicate a user-friendly onboarding process, with social login options and verification features catering to a broad audience, including those who prefer quick sign-ups or detailed form inputs.",
+        "Designed for users in Canada (given the postal code and newspaper references like Calgary Sun and Calgary Herald), possibly targeting readers interested in local news or digital subscriptions.",
+      ],
+      links: {
+        demo: "https://localink-pi.vercel.app/",
+        github: "https://github.com/AustinRexi/localink",
+      },
+    },
+    {
+      title: "Mazi",
+      duration: " Dec 2024 - July 2025",
+      description:
+        " Mazi is an e-commerce admin dashboard web application designed to manage various aspects of an online marketplace, focusing on customers, couriers (riders), products, orders, and financial transactions.Built with React using React Router for navigation (NavLink for routing) Utilizes Ant Design components  for UI elements Uses Day.js for date handling and calendar functionality.",
+      features: [
+        "Manage product listings (food and groceries).",
+        "Oversee customer data (users and stores)",
+        "Track and manage orders, including special orders",
+        "Coordinate courier operations for delivery.",
+        "Handle currency exchange transactions for international or multi-currency operations.",
+      ],
+      links: {
+        demo: "https://mazi-seven.vercel.app/",
+        github: "https://github.com/AustinRexi/Mazi",
+      },
+    },
   ];
 
   return (
